@@ -28,7 +28,7 @@ class customerInfo {
         this.Balance = bal;
         this.Pin_Code = PIN;
         this.Account_Title = first.concat(" ",last).toUpperCase();
-        this.IBAN = `PKOOP 01034695844001${count++}`;
+        this.IBAN = `PKOOP 01034695844001${count++}`
     };
 };
 
@@ -37,7 +37,7 @@ interface Bankaccount {          //Declaring methods in interface
     CreateAccount(first:string,last:string,age:number,gender:string,mobileNo:number,cnic:string,bal:number,PIN:number):void;
     DebitAmount(pin:number,Amount:number):void;
     CreditAmount(pin:number,Amount:number):void;
-    Accountdetails(password:string):void;
+    Accountdetails(password:string):void
 };
 
 //Creating a myBank class which implements the above interface

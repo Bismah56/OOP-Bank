@@ -1,6 +1,6 @@
 {
   "name": "bismah_oop-bank",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "MyBank Console App with help of OOP in typescript",
   "main": "main.js",
   "type": "module",
